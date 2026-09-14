@@ -2,19 +2,19 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 10;        /* gaps between windows */
+static const unsigned int gappx     = 16;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const int vertpad            = 10;       /* vertical padding of bar */
-static const int sidepad            = 10;       /* horizontal padding of bar */
+static const int vertpad            = 16;       /* vertical padding of bar */
+static const int sidepad            = 16;       /* horizontal padding of bar */
 static const char *fonts[]          = { "UbuntuMono Nerd Font:size=16:antialias=true:autohint=true" };
 static const char dmenufont[]       = "UbuntuMono Nerd Font:size=16:antialias=true:autohint=true";
 static const char col_gray1[]       = "#282828";
 static const char col_gray2[]       = "#504935";
 static const char col_gray3[]       = "#ebdbb2";
 static const char col_gray4[]       = "#fbf1c7";
-static const char col_green[]       = "#508939";
+static const char col_green[]       = "#8c9651";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -23,8 +23,13 @@ static const char *colors[][3]      = {
 
 /* tagging */
 //static const char *tags[] = { "", "", "", "", "" };
-static const char *tags[] = { "  ", "  ", "  ", "  ", "  " };
-//     
+//static const char *tags[] = { "", "", "", "", "" };
+//static const char *tags[] = {"", "", "", "", "" };
+//static const char *tags[] = { "", "", "", "", "" };
+//static const char *tags[] = { "󰜌", "󰜌", "󰜌", "󰜌", "󰜌" };
+//static const char *tags[] = { "󱓜", "󱓜", "󱓜", "󱓜", "󱓜" };
+static const char *tags[] = { "󰖯", "󰖯", "󰖯", "󰖯", "󰖯" };
+//static const char *tags[] = { "", "", "", "", "" };
 
 /* appicons */
 /* NOTE: set to 0 to set to default (whitespace) */
