@@ -1,0 +1,9 @@
+# dwm auto-generated files
+config.h
+drw.o
+dwm
+dwm.o
+util.o
+
+# Patches folder
+patches/
